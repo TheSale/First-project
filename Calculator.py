@@ -1,8 +1,8 @@
 print("Operation-Command")
 print("addition-add\nsubtraction-sub\nmultiplication-mult\ndivision-div")
 operation = input ("command ")
-x = int(input ())
-y = int(input ())
+x = float(input ())
+y = float(input ())
 
 if operation == "add":
     print("result", x+y)
